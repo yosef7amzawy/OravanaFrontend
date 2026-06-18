@@ -117,7 +117,7 @@ function Home() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 grid-pattern opacity-40 [mask-image:radial-gradient(ellipse_at_center,black,transparent_70%)]" />
         <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
-        <div className="relative mx-auto max-w-7xl px-5 sm:px-6 pt-16 pb-20 sm:pt-20 sm:pb-28 md:pt-28 md:pb-40">
+        <div className="relative mx-auto max-w-7xl px-5 sm:px-6 pt-2 pb-20 sm:pt-4 sm:pb-28 md:pt-8 md:pb-40">
           <div className="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
             <div className="lg:col-span-7 animate-fade-up">
               <SectionLabel>// AI Creative Studio</SectionLabel>

@@ -64,7 +64,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "ORAVANA — Intelligent Digital Experiences" },
       { name: "description", content: "ORAVANA is a creative technology studio building AI-powered systems, branding, software and digital products designed for the future." },
       { property: "og:title", content: "ORAVANA — Intelligent Digital Experiences" },
-      { property: "og:description", content: "AI-powered systems, branding, software and digital products for the future." },
+      { property: "og:description", content: "ORAVANA is a creative technology studio building AI-powered systems, branding, software and digital products designed for the future." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

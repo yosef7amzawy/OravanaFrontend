@@ -72,7 +72,7 @@ export function Nav() {
         </div>
 
         {open && (
-          <div className="md:hidden mt-2 glass-strong rounded-2xl p-4 flex flex-col gap-1 animate-fade-up">
+          <div className="md:hidden mt-2 rounded-2xl p-4 flex flex-col gap-1 animate-fade-up" style={{ background: "oklch(0.15 0.08 295 / 0.95)", backdropFilter: "blur(20px)", border: "1px solid oklch(0.4 0.1 295 / 0.3)" }}>
             {links.map((l) => (
               <Link
                 key={l.to}
